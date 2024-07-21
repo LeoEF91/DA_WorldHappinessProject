@@ -35,7 +35,7 @@ page = st.sidebar.radio("Go to", pages)
 st.sidebar.markdown("""
     <h2 style='font-family:Calibri (Body); color:Orange;'>Project Team Members</h2>
     <p style='font-family:Calibri (Body); color:blue;'><strong>1. Leonie E. Fickinger</strong> 
-    <a href='https://https://www.linkedin.com/in/leonie-ederli-fickinger-424a24117/' style='color:blue;'>
+    <a href='https://https://www.linkedin.com/in/leonie-ederli-fickinger' style='color:blue;'>
     <img src='https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg' alt='LinkedIn' width='30' height='20'>
     </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>2. Marta Blazsik</strong> 
