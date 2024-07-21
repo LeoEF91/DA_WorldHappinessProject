@@ -175,8 +175,6 @@ To have a first impression of how the ladder score value is distributed across c
 
              
 Countries not covered by the world_happiness-2021 dataset are shown without colour (i.e. white).  
-Plotly map 2021[MB1], interactive. 
-
 """)          
 
 
