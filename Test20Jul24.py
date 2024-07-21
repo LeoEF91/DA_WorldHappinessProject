@@ -275,7 +275,7 @@ On the other hand, the Perception of corruption negatively correlates with the L
 Finally, we identified the five happiest and least happy countries over the entire time frame 2005-2021 by computing the average ladder score per country:
       
 """)
-    st.image("The Happiest and least Happy countries.jpg", caption='The Happiest and least Happy countries.', use_column_width=True)
+    st.image("The Happiest and least Happy countries.jpg", use_column_width=True)
 
 # Data pre-processing Page
 if page == pages[3]:
