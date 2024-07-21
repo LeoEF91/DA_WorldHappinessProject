@@ -176,8 +176,6 @@ To have a first impression of how the ladder score value is distributed across c
              
 Countries not covered by the world_happiness-2021 dataset are shown without colour (i.e. white).  
 """)          
-
-
 # Create the Plotly choropleth map
     fig = px.choropleth(
     df1,
