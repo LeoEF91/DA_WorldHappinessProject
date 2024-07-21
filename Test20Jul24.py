@@ -237,7 +237,7 @@ Scatterplot with Ladder Score, but the user can pick which dimension it combines
     Figure 3: Scatter plot with Ladder score.
 """)
          
-    st.image(r"C:\Users\HP\Desktop\Presentation\Scatterplot.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
+    st.image("Scatterplot.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
 
     st.write("""
     To offer a better overview with exact numbers, we also created a Heatmap:   
@@ -268,7 +268,7 @@ On the other hand, the Perception of corruption negatively correlates with the L
 Finally, we identified the five happiest and least happy countries over the entire time frame 2005-2021 by computing the average ladder score per country:
       Figure 6: The happiest and least happy countries according to the average values of Ladder score (between 2005-2021) 
 """)
-    st.image(r"C:\Users\HP\Desktop\Presentation\The Happiest and least Happy countries.jpg", caption='The Happiest and least Happy countries.', use_column_width=True)
+    st.image("The Happiest and least Happy countries.jpg", caption='The Happiest and least Happy countries.', use_column_width=True)
 
 # Data pre-processing Page
 if page == pages[3]:
@@ -313,7 +313,7 @@ if page == pages[4]:
     """)
    
 
-    st.image(r"C:\Users\HP\Desktop\Presentation\Table Performance scores_white background.jpg", caption='Comparison of performace scores for three models', use_column_width=True)
+    st.image("Table Performance scores_white background.jpg", caption='Comparison of performace scores for three models', use_column_width=True)
     
     
     ####Model selection[tbc]
@@ -352,10 +352,10 @@ Regarding the five least happy countries, our predictions turn out to be less re
 Note that the model was not intended to predict the right ranking but to calculate the expected happiness scores, however, the prediction of the five happiest and least happy countries, - which was our main project goal, - derives from the approach trying to create a more practical interpretation of the data
 """)
                 
-    st.image(r"C:\Users\HP\Desktop\Presentation\Predictions1.jpg", caption='', use_column_width=True)
+    st.image("Predictions1.jpg", caption='', use_column_width=True)
 
     
-    st.image(r"C:\Users\HP\Desktop\Presentation\Predictions2.jpg", caption='', use_column_width=True)
+    st.image("Predictions2.jpg", caption='', use_column_width=True)
 
 
 
