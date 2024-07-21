@@ -57,7 +57,7 @@ def load_data():
     return df1, df2, merged_df_only_common_columns2
 
 @st.cache_data
-def merge_data(df1, df2):
+def merge_data(df1, df2, merged_df_only_common_columns2):
     # Renaming columns in df2 to match df1
     new_column_names_df2 = {
         'Life Ladder': 'Ladder score',
