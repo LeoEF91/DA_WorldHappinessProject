@@ -72,7 +72,7 @@ def merge_data(df1, df2):
     merged_df = df1.merge(right=df2, on=['Country name', 'year', 'Ladder score', 'Logged GDP per capita',
                                          'Social support', 'Healthy life expectancy',
                                          'Freedom to make life choices', 'Generosity',
-                                         'Perceptions of corruption'], how='inner')
+                                         'Perceptions of corruption'], how='outer')
     
     merged_df = merged_df.reset_index(drop=True)
     return merged_df
@@ -226,7 +226,10 @@ Now, moving on from the 2021 data set to the entire data set, let’s take a loo
 
     fig_violinplot, ax = plt.subplots(figsize=(10, 7))
     
-    selected_dimension = st.selectbox("Select a dimension:", merged_df.columns)
+    selected_dimension = st.selectbox("Select a dimension:", merged_df["Ladder score", "Logged GDP per capita",
+                                         "Social support", "Healthy life expectancy",
+                                         "Freedom to make life choices", "Generosity",
+                                         "Perceptions of corruption")
 
     sns.violinplot(x="year", y=selected_dimension, data=merged_df)
     plt.xticks(rotation=90)
