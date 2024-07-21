@@ -202,13 +202,14 @@ Countries not covered by the world_happiness-2021 dataset are shown without colo
 The map shows some clear distribution patterns. OECD countries seem to occupy the top range of the ladder scores, meanwhile Africa and the Middle East tend to be rather at the lowest end. The very dark blue and dark red colours - representing the maximum and the minimum ladder score values - seem to be associated with only a few countries.
 
 Additionally, we can observe the grouping of countries by region, certain neighbouring country groups being in the same range of the Ladder score. 
+
 The column Regional Indicator was only present in the 2021 data frame, and to answer our assumption, if the Region could be an indicator of the range in the Ladder score, we created a graph displaying its distribution by Region, with boxplots: 
 Regions graph. 
              Title: Figure 2: Boxplot with Ladder score distributions by Region 
     """)         
 
     fig_boxplot, ax = plt.subplots(figsize=(10, 7))
-    sns.boxplot(data=df1, y='Regional indicator', x='Ladder score', hue='Regional indicator', ax=ax, dodge=False)
+    sns.boxplot(data=df1, y='Regional indicator', x='Ladder score', hue='Regional indicator', ax=ax, ordered=True, dodge=False)
     ax.set_title("Happiness Score by Region", size=20)
     # Remove legend if it exists
     if ax.legend_:
