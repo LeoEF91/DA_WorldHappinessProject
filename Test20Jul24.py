@@ -273,7 +273,7 @@ Finally, we identified the five happiest and least happy countries over the enti
 
 # Data pre-processing Page
 if page == pages[3]:
-    st.write("## Data Preprocessing and Merging Data Sets")
+    st.write("### Data Preprocessing and Merging Data Sets")
     st.write("""
     The data sets **world-happiness-report-2021.csv** and **world-happiness-report.csv** were merged with the aim to obtain a data set containing data for a continuous time series ranging from 2005 to 2021, focusing only on the columns of interest.
     Furthermore, the dataset was reduced to the minimum – meaning, only the feature and the target variables were kept and rows where more than two missing values of the feature variables are missing (i.e., at least 33% of the explanatory data missing) were deleted. As these columns all contain numerical values, no encoding was necessary.
