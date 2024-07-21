@@ -231,7 +231,7 @@ selected_dimension = st.selectbox("Select a dimension for the y-axis:", merged_d
 sns.violinplot(x="year", y=selected_dimension, data=merged_df)
 plt.xticks(rotation=90)
 
-st.pyplot()
+    st.pyplot()
 
 st.write("""
 Meanwhile the temporal factor was not our main focus in the project, it’s interesting to see how this value changes over time in the world, but to understand the underlying issues resulting in this evolution requires a deeper analysis. 
