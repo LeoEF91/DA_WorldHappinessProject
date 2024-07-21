@@ -204,8 +204,7 @@ The map shows some clear distribution patterns. OECD countries seem to occupy th
 Additionally, we can observe the grouping of countries by region, certain neighbouring country groups being in the same range of the Ladder score. 
 
 The column Regional Indicator was only present in the 2021 data frame, and to answer our assumption, if the Region could be an indicator of the range in the Ladder score, we created a graph displaying its distribution by Region, with boxplots: 
-Regions graph. 
-             Title: Figure 2: Boxplot with Ladder score distributions by Region 
+
     """)         
 
     fig_boxplot, ax = plt.subplots(figsize=(10, 7))
