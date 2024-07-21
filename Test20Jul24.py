@@ -53,11 +53,10 @@ st.sidebar.markdown("""
 def load_data():
     df1 = pd.read_csv('world-happiness-report-2021.csv')
     df2 = pd.read_csv('world-happiness-report.csv')
-    merged_df_only_common_columns2 = pd.read_csv('merged_df_only_common_columns2.csv')
-    return df1, df2, merged_df_only_common_columns2
+    return df1, df2
 
 @st.cache_data
-def merge_data(df1, df2, merged_df_only_common_columns2):
+def merge_data(df1, df2):
     # Renaming columns in df2 to match df1
     new_column_names_df2 = {
         'Life Ladder': 'Ladder score',
@@ -255,7 +254,7 @@ Scatterplots offer a great visual representation of correlations among variables
                 
 # Heatmap 2005-2021
 
-    heatmap_table = merged_df_only_common_columns2[["Ladder score", "Logged GDP per capita", "Social support",
+    heatmap_table = merged_df[["Ladder score", "Logged GDP per capita", "Social support",
                          "Healthy life expectancy", "Freedom to make life choices", "Generosity", "Perceptions of corruption"]]
 
     cor2 = heatmap_table.corr()
