@@ -80,14 +80,9 @@ def merge_data(df1, df2):
 df1, df2 = load_data()
 merged_df = merge_data(df1, df2)
 
-# Data preparation
-X = df1[['Logged GDP per capita', 'Social support', 'Healthy life expectancy', 'Freedom to make life choices', 'Generosity', 'Perceptions of corruption']]
-y = df1['Ladder score']
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Train the model
-model = RandomForestRegressor(n_estimators=100, random_state=42)
-model.fit(X_train, y_train)
+import joblib
+model_file_path3 = "C:\Users\HP\Desktop\WH\random_forest_model"
+random_forest_model = joblib.load(model_file_path3)
 
 
 
