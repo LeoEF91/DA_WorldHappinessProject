@@ -40,7 +40,7 @@ st.sidebar.markdown("""
     </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>2. Marta Blazsik</strong> 
    <a href="https://www.linkedin.com/in/marta.blazsik">
-    <img src="https://www.example.com/path/to/linkedin-logo.png" alt="LinkedIn Logo">
+    <img src="https://www.flaticon.com/free-icon/linkedin_174857">
 	</a>
     <p style='font-family:Calibri (Body); color:blue;'><strong>3. Nitin Zimur</strong> 
     <a href='https://www.linkedin.com/in/nitin-z-9a662019/' style='color:blue;'>
