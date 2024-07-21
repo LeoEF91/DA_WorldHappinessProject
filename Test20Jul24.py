@@ -226,7 +226,7 @@ Now, moving on from the 2021 data set to the entire data set, let’s take a loo
 
     fig_violinplot, ax = plt.subplots(figsize=(10, 7))
     
-    selected_dimension = st.selectbox("Select a dimension:", merged_df["Ladder score", "Logged GDP per capita",
+    selected_dimension = st.selectbox("Select a dimension:", ["Ladder score", "Logged GDP per capita",
                                          "Social support", "Healthy life expectancy",
                                          "Freedom to make life choices", "Generosity",
                                          "Perceptions of corruption"])
