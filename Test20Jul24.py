@@ -72,7 +72,7 @@ def merge_data(df1, df2):
     merged_df = df1.merge(right=df2, on=['Country name', 'year', 'Ladder score', 'Logged GDP per capita',
                                          'Social support', 'Healthy life expectancy',
                                          'Freedom to make life choices', 'Generosity',
-                                         'Perceptions of corruption'], how='outer')
+                                         'Perceptions of corruption'], how='inner')
     
     merged_df = merged_df.reset_index(drop=True)
     return merged_df
