@@ -358,7 +358,7 @@ Yet, only two out of four were predicted correctly in terms of the ranking posit
 
 Regarding the five least happy countries, our predictions turn out to be less reliable, considering that only two countries, namely Afghanistan and Sierra Leone were predicted correctly to be in the five least happy countries. 
 
-Note that the model was not intended to predict the right ranking but to calculate the expected happiness scores, however, the prediction of the five happiest and least happy countries, - which was our main project goal, - derives from the approach trying to create a more practical interpretation of the data
+Note that the model was not intended to predict the right ranking but to calculate the expected happiness scores, however, the prediction of the five happiest and least happy countries, - which was our main project goal, - derives from the approach trying to create a more practical interpretation of the data.
 """)
                 
    
