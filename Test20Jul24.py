@@ -245,15 +245,14 @@ Scatterplots offer a great visual representation of correlations among variables
 
     """)
          
-    st.image("Scatterplot.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
+    st.image("Scatterplot2.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
 
     st.write("""
     To offer a better overview with exact numbers, we also created a Heatmap:   
-    Heatmap: 
-      Figure 5: Heatmap (2005-2021) 
+    
 """)
                 
-# Heatmap 2021
+# Heatmap 2005-2021
 
     heatmap_table2021 = df1[["Ladder score", "Logged GDP per capita", "Social support",
                          "Healthy life expectancy", "Freedom to make life choices", "Generosity", "Perceptions of corruption"]]
@@ -262,7 +261,7 @@ Scatterplots offer a great visual representation of correlations among variables
 
     fig, ax = plt.subplots(figsize=(8, 8))
     sns.heatmap(cor2, annot=True, ax=ax, cmap="coolwarm")
-    plt.title("Heatmap 2021")
+    plt.title("Heatmap 2005-2021")
 
 # Display the heatmap in the Streamlit app
     st.pyplot(fig)
