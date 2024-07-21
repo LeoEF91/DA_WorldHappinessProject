@@ -222,7 +222,8 @@ The column Regional Indicator was only present in the 2021 data frame, and to an
 Even though the length of the distribution range differs a lot depending on the Region, based on this graph, our assumption seems correct (however, we did not statistically analyse it further and relied only on the visual graph). 
 
 Now, moving on from the 2021 data set to the entire data set, let’s take a look at the evolution of the Ladder Score through the years: 
-""")
+    """)
+    
     fig_violinplot, ax = plt.subplots(figsize=(10, 7))
     
     selected_dimension = st.selectbox("Select a dimension for the y-axis:", merged_df.columns)
