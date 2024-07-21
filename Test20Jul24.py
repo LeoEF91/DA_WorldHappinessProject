@@ -43,7 +43,7 @@ st.sidebar.markdown("""
     <img src='https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg' alt='LinkedIn' width='30' height='20'>
     </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>3. Nitin Zimur</strong> 
-    <a href='https://www.linkedin.com/in/nitinzimur' style='color:blue;'>
+    <a href='https://www.linkedin.com/in/nitin-z-9a662019/' style='color:blue;'>
     <img src='https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg' alt='LinkedIn' width='30' height='20'>
     </a></p>
     """, unsafe_allow_html=True)
