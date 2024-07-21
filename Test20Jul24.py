@@ -81,8 +81,7 @@ df1, df2 = load_data()
 merged_df = merge_data(df1, df2)
 
 import joblib
-python
-random_forest_model = joblib.load(random_forest_model)python
+random_forest_model = joblib.load(random_forest_model)
 
 
 # Display an image
