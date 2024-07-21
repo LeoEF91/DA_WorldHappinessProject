@@ -349,12 +349,9 @@ Since the 2022 data got published containing the Ladder score, it gave us the op
 
     st.image("Predictions2.jpg", caption='', use_column_width=True)
 
-    st.write("""
-Visitors of our project can choose a country and compare predicted and actual Ladder Score: 
-Interactive graph: choose a country and you will see the predicted and the actual value for 2022. Title: Predictions vs. actual value per country (2022)
-""")
+   
     st.write("""   
-     ""Conclusion:
+     **Conclusion**
 
 Taking a closer look at the five happiest countries, we can see that four out of five countries were predicted correctly to be in the top five. 
 Yet, only two out of four were predicted correctly in terms of the ranking position (i.e. index) - which are Finland as happiest country and Denmark as third happiest country.
