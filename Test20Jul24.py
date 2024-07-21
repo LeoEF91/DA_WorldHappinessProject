@@ -39,7 +39,7 @@ st.sidebar.markdown("""
     <img src='https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg' alt='LinkedIn' width='30' height='20'>
     </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>2. Marta Blazsik</strong> 
-    <a href='https://www.linkedin.com/in/martablzsik' style='color:blue;'>
+    <a href='https://www.linkedin.com/in/martablazsik' style='color:blue;'>
     <img src='https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg' alt='LinkedIn' width='30' height='20'>
     </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>3. Nitin Zimur</strong> 
