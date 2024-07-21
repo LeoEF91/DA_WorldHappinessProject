@@ -223,15 +223,6 @@ Even though the length of the distribution range differs a lot depending on the 
 
 Now, moving on from the 2021 data set to the entire data set, let’s take a look at the evolution of the Ladder Score through the years: 
     """)
-    
-    fig_violinplot, ax = plt.subplots(figsize=(10, 7))
-    
-    selected_dimension = st.selectbox("Select a dimension for the y-axis:", merged_df.columns)
-
-    sns.violinplot(x="year", y=selected_dimension, data=merged_df)
-    plt.xticks(rotation=90)
-
-    st.pyplot(fig_violinplot)
 
 st.write("""
 Meanwhile the temporal factor was not our main focus in the project, it’s interesting to see how this value changes over time in the world, but to understand the underlying issues resulting in this evolution requires a deeper analysis. 
@@ -244,9 +235,9 @@ Scatterplot with Ladder Score, but the user can pick which dimension it combines
     Figure 3: Scatter plot with Ladder score.
 """)
          
-st.image("Scatterplot.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
+    st.image("Scatterplot.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
 
-st.write("""
+    st.write("""
     To offer a better overview with exact numbers, we also created a Heatmap:   
     Heatmap: 
       Figure 5: Heatmap (2005-2021) 
