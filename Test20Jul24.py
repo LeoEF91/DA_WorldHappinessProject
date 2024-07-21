@@ -346,9 +346,11 @@ We tested the random forest model on the 2022 data and generated predictions for
 
     st.write("""
 Since the 2022 data got published containing the Ladder score, it gave us the opportunity to compare our results with the actual ladder scores and the lists of the 5 happiest and least happy countries: 
+ """)
 
-Actual data of the 5 happiest and 5 least happy countries. Title: The happiest and least happy countries in 2022 - actual data. (#9.11.)
+    st.image("Predictions2.jpg", caption='', use_column_width=True)
 
+    st.write("""
 Visitors of our project can choose a country and compare predicted and actual Ladder Score: 
 Interactive graph: choose a country and you will see the predicted and the actual value for 2022. Title: Predictions vs. actual value per country (2022)
 """)
@@ -364,8 +366,6 @@ Note that the model was not intended to predict the right ranking but to calcula
 """)
                 
    
-    st.image("Predictions2.jpg", caption='', use_column_width=True)
-
 
 
 # Summary Page
