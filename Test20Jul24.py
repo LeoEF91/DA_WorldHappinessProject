@@ -51,8 +51,8 @@ st.sidebar.markdown("""
 # Load the datasets
 @st.cache_data
 def load_data():
-    df1 = pd.read_csv(r'C:\Users\HP\Desktop\WH\world-happiness-report-2021.csv')
-    df2 = pd.read_csv(r'C:\Users\HP\Desktop\WH\world-happiness-report.csv')
+    df1 = pd.read_csv('world-happiness-report-2021.csv')
+    df2 = pd.read_csv('world-happiness-report.csv')
     return df1, df2
 
 @st.cache_data
