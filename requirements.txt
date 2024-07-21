@@ -3,6 +3,6 @@ pandas
 numpy
 matplotlib
 seaborn
-plotly.express
+plotly
 Pillow
 scikit-learn
