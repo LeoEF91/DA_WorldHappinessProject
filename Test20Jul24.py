@@ -35,14 +35,19 @@ page = st.sidebar.radio("Go to", pages)
 st.sidebar.markdown("""
     <h2 style='font-family:Calibri (Body); color:Orange;'>Project Team Members</h2>
     <p style='font-family:Calibri (Body); color:blue;'><strong>1. Leonie E. Fickinger</strong> 
-    "![](https://www.pixenli.com/image/fm0aEpMI)"
+    <a href='https://www.linkedin.com/in/leonie-ederli-fickinger-424a24117/' style='color:blue;'>
+    <img src='https://www.flaticon.com/free-icon/linkedin_174857' alt='LinkedIn' width='30' height='20'>
+    </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>2. Marta Blazsik</strong> 
     <a href='https://www.linkedin.com/in/martablazsik' style='color:blue;'>
-   "![](https://www.pixenli.com/image/fm0aEpMI)"
+    <img src='https://www.flaticon.com/free-icon/linkedin_174857' width='30' height='20'>
+    </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>3. Nitin Zimur</strong> 
     <a href='https://www.linkedin.com/in/nitin-z-9a662019/' style='color:blue;'>
-   "![](https://www.pixenli.com/image/fm0aEpMI)"
+    <img src='https://www.flaticon.com/free-icon/linkedin_174857' alt='LinkedIn' width='30' height='20'>
+    </a></p>
     """, unsafe_allow_html=True)
+
 
 # Load the datasets
 @st.cache_data
