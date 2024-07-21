@@ -221,7 +221,7 @@ The column Regional Indicator was only present in the 2021 data frame, and to an
     st.write("""
 Even though the length of the distribution range differs a lot depending on the Region, based on this graph, our assumption seems correct (however, we did not statistically analyse it further and relied only on the visual graph). 
 
-Now, moving on from the 2021 data set to the entire data set, let’s take a look at the evolution of variables through the years depending on your choice: 
+Now, moving on from the 2021 data set to the entire data set, let’s take a look at the distribution and evolution of variables through the years depending on your choice, focusing on the main variables, namely: Ladder score, Social support, Logged GDP per capita, Healthy life expectancy, Freedom to make life choices, Generosity and Perceptions of corruption:
     """)
 
     fig_violinplot, ax = plt.subplots(figsize=(10, 7))
@@ -237,14 +237,12 @@ Now, moving on from the 2021 data set to the entire data set, let’s take a loo
     st.pyplot(fig_violinplot)
 
     st.write("""
-Meanwhile the temporal factor was not our main focus in the project, it’s interesting to see how this value changes over time in the world, but to understand the underlying issues resulting in this evolution requires a deeper analysis. 
+Meanwhile the temporal factor was not our main focus in the project, it’s interesting to see how these values change over time in the world, but to understand the underlying issues resulting in this evolution requires a deeper analysis. 
 
-Next, our team studied correlations between the main variables for the whole time frame 2005-2021, namely: Ladder score, Social support, Logged GDP per capita, Healthy life expectancy, Freedom to make life choices, Generosity and Perceptions of corruption. 
+Next, our team studied correlations between the main variables for the whole time frame 2005-2021. 
 
-Scatterplots offer a great visual representation of correlations. Choose any variables you would like to see in combination with the Ladder score in the next graph: 
+Scatterplots offer a great visual representation of correlations among variables: 
 
-Scatterplot with Ladder Score, but the user can pick which dimension it combines it with (covering #5.2. and #5.7.). 
-    Figure 3: Scatter plot with Ladder score.
     """)
          
     st.image("Scatterplot.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
