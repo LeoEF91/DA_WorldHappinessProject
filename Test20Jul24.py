@@ -39,9 +39,8 @@ st.sidebar.markdown("""
     <img src='LI-In-Bug.png' alt='LinkedIn' width='30' height='20'>
     </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>2. Marta Blazsik</strong> 
-    <a href='https://www.linkedin.com/in/martablazsik' style='color:blue;'>
-    <img src='LI-In-Bug.png' alt='LinkedIn' width='30' height='20'>
-    </a></p>
+   <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="martablazsik" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ch.linkedin.com/in/martablazsik?trk=profile-badge">Marta Blazsik</a></div>
+              
     <p style='font-family:Calibri (Body); color:blue;'><strong>3. Nitin Zimur</strong> 
     <a href='https://www.linkedin.com/in/nitin-z-9a662019/' style='color:blue;'>
     <img src='LI-In-Bug.png' alt='LinkedIn' width='30' height='20'>
