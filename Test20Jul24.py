@@ -222,8 +222,18 @@ The column Regional Indicator was only present in the 2021 data frame, and to an
 Even though the length of the distribution range differs a lot depending on the Region, based on this graph, our assumption seems correct (however, we did not statistically analyse it further and relied only on the visual graph). 
 
 Now, moving on from the 2021 data set to the entire data set, let’s take a look at the evolution of the Ladder Score through the years: 
-the user could pick (as second bars). Title: Figure 4: Temporal evolution of the examined metrics (2005-2021) Barplot of the average ladder score combined with year + one additional dimension which 
+""")
 
+plt.figure(figsize=(12, 7))
+
+selected_dimension = st.selectbox("Select a dimension for the y-axis:", merged_df.columns)
+
+sns.violinplot(x="year", y=selected_dimension, data=merged_df)
+plt.xticks(rotation=90)
+
+st.pyplot()
+
+st.write("""
 Meanwhile the temporal factor was not our main focus in the project, it’s interesting to see how this value changes over time in the world, but to understand the underlying issues resulting in this evolution requires a deeper analysis. 
 
 Next, our team studied correlations between the main variables for the whole time frame 2005-2021, namely: Ladder score, Social support, Logged GDP per capita, Healthy life expectancy, Freedom to make life choices, Generosity and Perceptions of corruption. 
