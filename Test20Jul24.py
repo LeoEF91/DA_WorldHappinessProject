@@ -184,7 +184,7 @@ Countries not covered by the world_happiness-2021 dataset are shown without colo
     color='Ladder score',
     hover_name='Country name',
     color_continuous_scale='RdBu',
-    title='Ladder Score Distribution Across Countries in 2021'
+    title='Ladder Score Distribution Across Countries in 2021:'
     )
 
     fig.update_geos(showframe=False)  # Hide the frame around the map
