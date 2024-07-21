@@ -158,7 +158,7 @@ The data input for this project consists of three main data sources which were f
 
     st.write("The following data set represents the data set resulting from merging the first two data sources on the common columns only.")
 
-    st.image("Merged_Dataset.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
+    st.image("Merged_Dataset.jpg", use_column_width=True)
 
 # Data Visualization Page
 
