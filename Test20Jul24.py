@@ -34,13 +34,13 @@ page = st.sidebar.radio("Go to", pages)
 
 st.sidebar.markdown("""
     <h2 style='font-family:Calibri (Body); color:Orange;'>Project Team Members</h2>
-    <p style='font-family:Calibri (Body); color:blue;'><strong>1. Leonie E. Fickinger</strong> 
+    <p style='font-family:Calibri (Body); color:blue;'><strong>Leonie E. Fickinger</strong> 
     <a href='https://www.linkedin.com/in/leonie-ederli-fickinger-424a24117/' style='color:blue;'>
     <img src='LI-In-Bug.png' alt='LinkedIn' width='30' height='20'>
     </a></p>
-    <p style='font-family:Calibri (Body); color:blue;'><strong>2. Marta Blazsik</strong> 
-“[![Title](‘https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg’)](‘https://www.linkedin.com/in/martablazsik/’)”  
-    <p style='font-family:Calibri (Body); color:blue;'><strong>3. Nitin Zimur</strong> 
+    <p style='font-family:Calibri (Body); color:blue;'><strong>Marta Blazsik</strong> 
+[![Title](‘https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg’)](‘https://www.linkedin.com/in/martablazsik/’)
+    <p style='font-family:Calibri (Body); color:blue;'><strong>Nitin Zimur</strong> 
     <a href='https://www.linkedin.com/in/nitin-z-9a662019/' style='color:blue;'>
     <img src='LI-In-Bug.png' alt='LinkedIn' width='30' height='20'>
     </a></p>
