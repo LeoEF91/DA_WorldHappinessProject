@@ -209,7 +209,7 @@ Regions graph.
     """)         
 
     fig_boxplot, ax = plt.subplots(figsize=(10, 7))
-    sns.boxplot(data=df1, y='Regional indicator', x='Ladder score', hue='Regional indicator', ax=ax, ordered=True, dodge=False)
+    sns.boxplot(data=df1, y='Regional indicator', x='Ladder score', hue='Regional indicator', ax=ax, dodge=False)
     ax.set_title("Happiness Score by Region", size=20)
     # Remove legend if it exists
     if ax.legend_:
