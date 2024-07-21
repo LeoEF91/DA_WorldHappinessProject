@@ -221,8 +221,17 @@ The column Regional Indicator was only present in the 2021 data frame, and to an
     st.write("""
 Even though the length of the distribution range differs a lot depending on the Region, based on this graph, our assumption seems correct (however, we did not statistically analyse it further and relied only on the visual graph). 
 
-Now, moving on from the 2021 data set to the entire data set, let’s take a look at the evolution of the Ladder Score through the years: 
+Now, moving on from the 2021 data set to the entire data set, let’s take a look at the evolution of variables through the years depending on your choice: 
     """)
+
+    fig_violinplot, ax = plt.subplots(figsize=(10, 7))
+    
+    selected_dimension = st.selectbox("Select a dimension:", merged_df.columns)
+
+    sns.violinplot(x="year", y=selected_dimension, data=merged_df)
+    plt.xticks(rotation=90)
+
+    st.pyplot(fig_violinplot)
 
     st.write("""
 Meanwhile the temporal factor was not our main focus in the project, it’s interesting to see how this value changes over time in the world, but to understand the underlying issues resulting in this evolution requires a deeper analysis. 
