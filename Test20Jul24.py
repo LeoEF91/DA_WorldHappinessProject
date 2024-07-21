@@ -273,7 +273,7 @@ There are strong positive correlations between variables such as GDP per capita,
 On the other hand, the Perception of corruption negatively correlates with the Ladder score. 
 
 Finally, we identified the five happiest and least happy countries over the entire time frame 2005-2021 by computing the average ladder score per country:
-      Figure 6: The happiest and least happy countries according to the average values of Ladder score (between 2005-2021) 
+      
 """)
     st.image("The Happiest and least Happy countries.jpg", caption='The Happiest and least Happy countries.', use_column_width=True)
 
