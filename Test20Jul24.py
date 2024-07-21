@@ -245,7 +245,7 @@ Scatterplots offer a great visual representation of correlations among variables
 
     """)
          
-    st.image("Scatterplot2.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
+    st.image("Scatterplot2.png", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
 
     st.write("""
     To offer a better overview with exact numbers, we also created a Heatmap:   
