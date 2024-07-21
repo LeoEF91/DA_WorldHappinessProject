@@ -244,9 +244,9 @@ Scatterplot with Ladder Score, but the user can pick which dimension it combines
     Figure 3: Scatter plot with Ladder score.
 """)
          
-    st.image("Scatterplot.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
+st.image("Scatterplot.jpg", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
 
-    st.write("""
+st.write("""
     To offer a better overview with exact numbers, we also created a Heatmap:   
     Heatmap: 
       Figure 5: Heatmap (2005-2021) 
