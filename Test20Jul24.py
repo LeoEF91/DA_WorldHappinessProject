@@ -337,13 +337,14 @@ if page == pages[5]:
 
     st.write("""
              
-Predictions:
+At this point, since the random forest model got evaluated, it’s time to return to our initial goal to predict the five happiest and least happy countries for the year following our data, namely 2022, and see how well the model performs in practice.
 
-At this point, since the random forest model got evaluated, it’s time to return to our initial goal to predict the five happiest and least happy countries for the year following our data, namely 2022, and see how well the model performs in practice. 
 We tested the random forest model on the 2022 data and generated predictions for the Ladder score: 
+ """)
 
-Predictions of the 5 happiest and 5 least happy countries. Title: Figure 1: The happiest and least happy countries in 2022 - predictions. (#9.10.)
+    st.image("Predictions1.jpg", caption='', use_column_width=True)
 
+    st.write("""
 Since the 2022 data got published containing the Ladder score, it gave us the opportunity to compare our results with the actual ladder scores and the lists of the 5 happiest and least happy countries: 
 
 Actual data of the 5 happiest and 5 least happy countries. Title: The happiest and least happy countries in 2022 - actual data. (#9.11.)
@@ -362,9 +363,7 @@ Regarding the five least happy countries, our predictions turn out to be less re
 Note that the model was not intended to predict the right ranking but to calculate the expected happiness scores, however, the prediction of the five happiest and least happy countries, - which was our main project goal, - derives from the approach trying to create a more practical interpretation of the data
 """)
                 
-    st.image("Predictions1.jpg", caption='', use_column_width=True)
-
-    
+   
     st.image("Predictions2.jpg", caption='', use_column_width=True)
 
 
