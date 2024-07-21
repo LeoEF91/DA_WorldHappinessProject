@@ -36,15 +36,15 @@ st.sidebar.markdown("""
     <h2 style='font-family:Calibri (Body); color:Orange;'>Project Team Members</h2>
     <p style='font-family:Calibri (Body); color:blue;'><strong>1. Leonie E. Fickinger</strong> 
     <a href='https://www.linkedin.com/in/leonie-ederli-fickinger-424a24117/' style='color:blue;'>
-    <img src='LI-In-Bug.png'>
+    <img src='https://www.flaticon.com/free-icon/linkedin_174857'>
     </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>2. Marta Blazsik</strong> 
     <a href='https://www.linkedin.com/in/martablazsik' style='color:blue;'>
-    <img src='LI-In-Bug.png'>
+    <img src='https://www.flaticon.com/free-icon/linkedin_174857'>
     </a></p>
     <p style='font-family:Calibri (Body); color:blue;'><strong>3. Nitin Zimur</strong> 
     <a href='https://www.linkedin.com/in/nitin-z-9a662019/' style='color:blue;'>
-    <img src='LI-In-Bug.png'>
+    <img src='https://www.flaticon.com/free-icon/linkedin_174857'>
     </a></p>
     """, unsafe_allow_html=True)
 
