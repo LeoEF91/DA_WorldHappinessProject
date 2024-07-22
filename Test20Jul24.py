@@ -109,13 +109,13 @@ if page == pages[1]:
     st.write("""
     To predict the happiness scores of countries, six feature variables were selected.
     
-    #Target Variable:
+    ##Target Variable:
     
     **Ladder score:** Happiness score representing subjective well-being. It is the national average response by individuals in a country to the question of own quality of life which they were able to rate along a ladder ranging from 0 to 10.
     """)
     
     st.write("""
-    #Feature Variables:
+    ##Feature Variables:
     
     **1. Logged GDP per capita:** GDP per capita is a measure of the economic output per person in a specific geographical area, usually a country.
     
@@ -133,7 +133,7 @@ if page == pages[1]:
    
 
     st.write("""
-    #Indicative Variables:
+    ##Indicative Variables:
 
 **1. Country name:** This variable indicates the country to which the values of a row are associated with.
 
@@ -141,7 +141,7 @@ if page == pages[1]:
 """)
 
     st.write("""
-    #Data Sources:
+    ##Data Sources:
 
 The data input for this project consists of three main data sources which were filtered according to the project’s needs. This means, only the columns containing the six selected feature variables, the target variable and the columns indicating the year and the country of these data sets were of interest to the project. The three data sources are:
 
