@@ -163,7 +163,7 @@ The data input for this project consists of three main data sources which were f
 # Data Visualization
 
 if page == pages[2]: 
-
+    st.write("### Data Visualization")
     st.write("""
 After studying all dimensions and measurements thoroughly included in the data frames and conducting basic pre-processing steps, we kept on familiarising ourselves with the data through visualisation graphs.
 
