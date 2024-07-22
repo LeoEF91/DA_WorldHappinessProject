@@ -160,7 +160,7 @@ The data input for this project consists of three main data sources which were f
 
     st.image("Merged_Dataset.jpg", use_column_width=True)
 
-("### Data Visualization")
+# Data Visualization
 
 if page == pages[2]: 
 
