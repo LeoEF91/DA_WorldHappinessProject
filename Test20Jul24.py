@@ -119,7 +119,7 @@ if page == pages[1]:
     
     **1. Logged GDP per capita:** GDP per capita is a measure of the economic output per person in a specific geographical area, usually a country.
     
-    **2. Social support:** This variable represents an opinion of individuals about their own situation regarding how much they can rely onto social support (e.g., family, friends) in challenging situations. The Social Support value can vary between 0 and 1 and it's a national average of all individuals based on binary responses (0 or 1).
+    **2. Social support:** This variable represents an opinion of individuals about their own situation regarding how much they can rely onto social support (e.g., family, friends) in challenging situations. The social support value can vary between 0 and 1 and it's a national average of all individuals based on binary responses (0 or 1).
     
     **3. Healthy life expectancy:** This variable represents healthy life expectancies at birth, based on data from the WHO and original data.
     
@@ -143,7 +143,7 @@ if page == pages[1]:
     st.write("""
 ### Data Sources:
 
-The data input for this project consists of three main data sources which were filtered according to the project’s needs. This means, only the columns containing the six selected feature variables, the target variable and the columns indicating the year and the country of these data sets were of interest for the project. The three data sources are:
+The data input for this project consists of three main data sources which were filtered according to the project’s needs. This means, only the columns containing the six selected feature variables, the target variable and the columns indicating the year and the country of these data sets were of interest to the project. The three data sources are:
 
 **1. world-happiness-report-2021.csv:** This file contains world happiness scores for the year 2021 for 149 countries, including the corresponding feature variables taken from the Gallup World Poll. This file also contains data presenting further analysis on the ladder score (e.g., contribution effects of explanatory variables on the happiness score). This data set contains no missing values.
 
@@ -154,13 +154,13 @@ The data input for this project consists of three main data sources which were f
 
     
 
-    st.write("""In the following steps, the first two datasets were merged resulting in a dataset containing data over the timespan 2005 to 2021 and preprocessed according to visualization and modelling needs.The last data set was only used for retrieving 2022 data and applying the selected machine learning model on it""")
+    st.write("""In the following steps, the first two datasets were merged resulting in a dataset containing data over the timespan 2005 to 2021 and preprocessed according to visualization and modelling needs.The last data set was only used for retrieving 2022 data and applying the selected machine learning model on it.""")
 
-    st.write("The following data set represents the data set resulting from merging the first two data sources on the common columns only.")
+    st.write("The following data set represents the data set resulting from merging the first two data sources. It contains the common columns only.")
 
     st.image("Merged_Dataset.jpg", use_column_width=True)
 
-# Data Visualization Page
+('### Data Visualization Page")
 
 if page == pages[2]: 
 
