@@ -101,6 +101,7 @@ if page == pages[0]:
 
 # Data exploration Page
 
+("### Relevance: Target and Feature Variables")
 if page == pages[1]:
 
 
