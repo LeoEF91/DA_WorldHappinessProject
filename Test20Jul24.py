@@ -109,7 +109,7 @@ if page == pages[1]:
     st.write("""
     To predict the happiness scores of countries, six feature variables were selected.
     
-    ###Target Variable:**
+    ### Target Variable:
     
     **Ladder score:** Happiness score representing subjective well-being. It is the national average response by individuals in a country to the question of own quality of life which they were able to rate along a ladder ranging from 0 to 10.
     """)
