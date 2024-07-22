@@ -104,7 +104,7 @@ if page == pages[0]:
 if page == pages[1]:
 
 
-    st.write("### Relevance: Target and Feature Variables")
+    st.markdown("<h1 style='text-align: left;'>Relevance: Target and Feature Variables</h1>", unsafe_allow_html=True)
     
     st.write("""
     To predict the happiness scores of countries, six feature variables were selected.
