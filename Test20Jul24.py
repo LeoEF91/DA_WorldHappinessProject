@@ -103,19 +103,19 @@ if page == pages[1]:
 
 # Data exploration Page
 
-    ("### Relevance: Target and Feature Variables")
+    st.markdown("<h1 style='text-align: left;'>Relevance: Target and Feature Variables</h1>", unsafe_allow_html=True)
 
     
     st.write("""
     To predict the happiness scores of countries, six feature variables were selected.
     
-    **Target Variable:**
+    ### Target Variable:
     
     **Ladder score:** Happiness score representing subjective well-being. It is the national average response by individuals in a country to the question of own quality of life which they were able to rate along a ladder ranging from 0 to 10.
     """)
     
     st.write("""
-    **Feature Variables:**
+    ### Feature Variables:
     
     **1. Logged GDP per capita:** GDP per capita is a measure of the economic output per person in a specific geographical area, usually a country.
     
@@ -133,15 +133,15 @@ if page == pages[1]:
    
 
     st.write("""
-    **Indicative Variables:**
-
+    ### Indicative Variables:
+    
 **1. Country name:** This variable indicates the country to which the values of a row are associated with.
 
 **2. Year:** This variable indicates the year to which the values of a row are assigned to.
 """)
 
     st.write("""
-    **Data Sources:**
+    ### Data Sources:
 
 The data input for this project consists of three main data sources which were filtered according to the project’s needs. This means, only the columns containing the six selected feature variables, the target variable and the columns indicating the year and the country of these data sets were of interest to the project. The three data sources are:
 
@@ -163,7 +163,7 @@ The data input for this project consists of three main data sources which were f
 # Data Visualization
 
 if page == pages[2]: 
-    st.write("### Data Visualization")
+    st.markdown("<h1 style='text-align: left;'>Visualization</h1>", unsafe_allow_html=True)
     st.write("""
 After studying all dimensions and measurements thoroughly included in the data frames and conducting basic pre-processing steps, we kept on familiarising ourselves with the data through visualisation graphs.
 
@@ -277,7 +277,8 @@ Finally, we identified the five happiest and least happy countries over the enti
 
 # Data pre-processing Page
 if page == pages[3]:
-    st.write("### Data Preprocessing and Merging Data Sets")
+    st.markdown("<h1 style='text-align: left;'>Data Preprocessing and Merging Data Sets</h1>", unsafe_allow_html=True)
+    
     st.write("""
     The data sets **world-happiness-report-2021.csv** and **world-happiness-report.csv** were merged with the aim to obtain a data set containing data for a continuous time series ranging from 2005 to 2021, focusing only on the columns of interest.
     Furthermore, the dataset was reduced to the minimum – meaning, only the feature and the target variables were kept and rows where more than two missing values of the feature variables are missing (i.e., at least 33% of the explanatory data missing) were deleted. As these columns all contain numerical values, no encoding was necessary.
@@ -303,7 +304,7 @@ if page == pages[3]:
 # Machine Learning Page
 if page == pages[4]: 
 
-    st.write("### Machine learning ")
+    st.markdown("<h1 style='text-align: left;'>Machine learning</h1>", unsafe_allow_html=True)
     
     st.write("""
     ### Classification of the problem
@@ -331,7 +332,7 @@ if page == pages[4]:
 # Predictions for Countries Page
 
 if page == pages[5]: 
-    st.write("### Predictions for Countries")
+    st.markdown("<h1 style='text-align: left;'>Predictions for Countries</h1>", unsafe_allow_html=True)
 
     st.write("""
              
@@ -365,7 +366,8 @@ Note that the model was not intended to predict the right ranking but to calcula
 
 # Summary Page
 if page == pages[6]: 
-    st.write("### Summary")
+    
+    st.markdown("<h1 style='text-align: left;'>Summary</h1>", unsafe_allow_html=True)
     st.write(""" 
 
 The World Happiness Report is one of, if not the most well known happiness research, and our team could learn a lot about how happiness is measured, which factors are taken into consideration as influential factors and from a statistical point of view, how each of these factors contribute to the overall results. 
@@ -382,7 +384,8 @@ The project team would advise to investigate whether optimising other models, su
 
 # Summary Page
 if page == pages[7]: 
-    st.write("### Resources")
+    
+    st.markdown("<h1 style='text-align: left;'>Resources</h1>", unsafe_allow_html=True)
 
     st.write("""
 
