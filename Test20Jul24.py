@@ -99,10 +99,11 @@ if page == pages[0]:
     st.write("""This project analyses data informing the World Happiness Reports with the goal of predicting the five happiest and the five least happy countries for the year 2022. To this end, a machine learning model was trained on socioeconomic data and perceptions collected during a time series 2005 to 2021 across countries.""") 
     st.write("""The World Happiness Report is a partnership of Gallup, the UN Sustainable Development Solutions Network, the Oxford Wellbeing Research Centre, and the WHR’s Editorial Board. Its aim is to inform government action and policies as well as raising awareness on happiness and well-being in general. The yearly released reports present and analyse world happiness scores across countries in a ranking format. The Gallup World Poll - a worldwide yearly survey on life evaluation questions – is one of the main underlying data sets supporting the rankings. Besides life expectancy data from WHO and GDP data, the Gallup World Poll serves as the underlying data source of this project.""") 
 
+if page == pages[1]:
+
 # Data exploration Page
 
     ("### Relevance: Target and Feature Variables")
-    if page == pages[1]:
 
     
     st.write("""
