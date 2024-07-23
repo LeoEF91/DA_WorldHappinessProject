@@ -337,13 +337,12 @@ if page == pages[4]:
 
     st.image("Table Performance scores_white background.jpg", caption='Comparison of performace scores for three models', use_column_width=True)
     
-    st.image("feature_imp_random_forest.jpg", caption='Feature importance analysis of the random forest model', use_column_width=True)
-
     st.write("""    
     ### Model selection
     The Random Forest Model is chosen as the best model as it shows the best scores. Further optimization of the chosen Model was assessed, specifically feature selection and dimensionality reduction. However, both techniques did not contribute to a significant improvement of the model and was, hence, not implemented.
     """)
-    
+
+    st.image("feature_imp_random_forest.jpg", caption='Feature importance analysis of the random forest model', use_column_width=True)
   
 
 
