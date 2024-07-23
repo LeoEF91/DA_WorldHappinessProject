@@ -337,7 +337,7 @@ if page == pages[4]:
 
     st.image("Table Performance scores_white background.jpg", caption='Comparison of performace scores for three models', use_column_width=True)
 
-    st.write("""Model selection""")
+    ### Model selection
     st.write("""The Random Forest Model is chosen as the best model as it shows the best scores. Further optimization of the chosen Model was assessed, specifically feature selection and dimensionality reduction. However, both techniques did not contribute to a significant improvement of the model and was, hence, not implemented.
      """)
     
