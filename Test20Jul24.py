@@ -203,6 +203,8 @@ Additionally, we can observe the grouping of countries by region, certain neighb
 
 The column Regional Indicator was only present in the 2021 data frame, and to answer our assumption, if the Region could be an indicator of the range in the Ladder score, we created a graph displaying its distribution by Region, with boxplots: 
 
+
+
     """)         
 
     fig_boxplot, ax = plt.subplots(figsize=(10, 7))
@@ -217,9 +219,13 @@ The column Regional Indicator was only present in the 2021 data frame, and to an
 
 
     st.write("""
+
+    
 Even though the length of the distribution range differs a lot depending on the Region, based on this graph, our assumption seems correct (however, we did not statistically analyse it further and relied only on the visual graph). 
 
 Now, moving on from the 2021 data set to the entire data set, let’s take a look at the distribution and evolution of variables through the years depending on your choice, focusing on the main variables, namely: Ladder score, Social support, Logged GDP per capita, Healthy life expectancy, Freedom to make life choices, Generosity and Perceptions of corruption:
+   
+    
     """)
 
     fig_violinplot, ax = plt.subplots(figsize=(10, 7))
@@ -235,6 +241,8 @@ Now, moving on from the 2021 data set to the entire data set, let’s take a loo
     st.pyplot(fig_violinplot)
 
     st.write("""
+
+    
 Meanwhile the temporal factor was not our main focus in the project, it’s interesting to see how these values change over time in the world, but to understand the underlying issues resulting in this evolution requires a deeper analysis. 
 
 Next, our team studied correlations between the main variables for the whole time frame 2005-2021. 
@@ -246,7 +254,11 @@ Scatterplots offer a great visual representation of correlations among variables
     st.image("Scatterplot2.png", caption='Merged data set 2005-2021 with common columns', use_column_width=True)
 
     st.write("""
+
+
+    
     To offer a better overview with exact numbers, we also created a Heatmap:   
+
     
 """)
                 
@@ -266,12 +278,16 @@ Scatterplots offer a great visual representation of correlations among variables
 
 
     st.write("""
+
+    
 There are strong positive correlations between variables such as GDP per capita, Social support, Life expectancy and the Ladder score. This suggests that countries with higher GDP per capita, stronger social support systems, and longer life expectancies tend to have higher happiness scores. A Pearson test also statistically confirmed the positive correlations of the Ladder score with GDP per capita and Healthy life expectancy.
 
 On the other hand, the Perception of corruption negatively correlates with the Ladder score. 
 
 Finally, we identified the five happiest and least happy countries over the entire time frame 2005-2021 by computing the average ladder score per country:
-      
+
+
+    
 """)
     st.image("The Happiest and least Happy countries.jpg", use_column_width=True)
 
